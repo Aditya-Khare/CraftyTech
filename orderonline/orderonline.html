@@ -1,0 +1,161 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<title>CraftyTech - Order Food Online</title>
+	<link rel="stylesheet" href="../signup/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="../signup/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		.topnav-right {
+			background-color: black;
+			overflow: hidden;
+		}
+		/* Style the links inside the navigation bar */
+		.topnav-right a {
+			float: left;
+			color: #fff;
+			text-align: center;
+			margin-right: 10px;
+			margin-left: 10px;
+			margin-top: 4px;
+			padding: 10px;
+			text-decoration: none;
+			font-size: 17px;
+			height: fit-content;
+		}
+		/* Change the color of links on hover */
+		.topnav-right a:hover {
+			background-color: rgb(255, 255, 255);
+			color: black;
+			border-radius: 10px;
+		}
+		/* Add a color to the active/current link */
+		.topnav-right a.active {
+			background-color: #4158d0;
+			background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+			border: 1px solid black;
+			border-radius: 10px;
+			color: white;
+		}
+	</style>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+	<div class="topnav-right">
+		<!-- <img src="../favicon.ico" class="imglogo" width="50px"> -->
+		<a href="../index.html">Home</a>
+		<a class="active" href="../orderonline/orderonline.html#top">CraftyTech Groceries</a>
+	</div>
+	<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<h2>Search Here...</h2>
+			</div>
+			<div class="col-lg-6">
+				<h3>Order Now!!!</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 div1">
+				<div class="inner1">
+					<input type="text" ng-model="addMe" placeholder=" Add Shopping Items Here"required>
+					<button ng-click="addItem()">Add</button>
+					<p style="color:red;font-size:10px;">{{errortext}}</p>
+				</div>
+				<div>
+					<div class="row">
+						<div class="col-lg-4"><img src="./img1.jpg" width="100%"></div>
+						<div class="col-lg-4"><img src="./img2.jpg" width="100%"></div>
+						<div class="col-lg-4"><img src="./img3.jpg" width="100%"></div>
+					</div><br><br>
+					<div class="row">
+						<div class="col-lg-4"><img src="./img4.jpg" width="100%"></div>
+						<div class="col-lg-4"><img src="./img5.jpeg" width="100%"></div>
+						<div class="col-lg-4"><img src="./img6.jpg" width="100%"></div>
+					</div><br><br>
+					<div class="row">
+						<div class="col-lg-4"><img src="./img7.jpg" width="100%"></div>
+						<div class="col-lg-4"><img src="./img8.jpg" width="100%"></div>
+						<div class="col-lg-4"><img src="./img9.webp" width="100%"></div>
+					</div><br><br>
+				</div>
+			</div>
+			<div class="col-lg-6 div2">
+				<form class="form" name="myForm">
+					NAME : <span ng-show="myForm.myName.$touched && myForm.myName.$invalid">The Name is required.</span><br>
+					<input type="text" id="name"  name="myName" ng-model="myName" required /><br><br>
+					EMAIL :	<span ng-show="myForm.myEmail.$dirty && myForm.myEmail.$invalid && myForm.myEmail.$touched">
+  								<span ng-show="myForm.myEmail.$error.required && myForm.myEmail.$touched">Email is required.</span>
+  								<span ng-show="myForm.myEmail.$error.email">Invalid email address.</span>
+  							</span><br>
+					<input type="email" name="myEmail" id="email" ng-model="myEmail" required /><br><br>
+					MOBILE :<span ng-show="myForm.myMobile.$touched && myForm.myMobile.$invalid">Invalid Mobile</span><br>
+					<input type="number" name="myMobile" ng-model="myMobile" id="mobile" minlength="10" maxlength="10" required /><br><br>
+					SELECTED ITEMS :
+					<div>
+						<ul>
+							<li ng-repeat="t in products" name="myList" ng-model="myList" minitems="1">{{t}}<span ng-click="removeItem($index)" class="close">&times;</span>	
+							</li>
+						</ul>
+					</div>
+					<button type="submit" onclick="loadDoc()">Submit</button><br><br>
+				</form>
+			</div>
+		</div>
+	</div>	
+<script>
+var prod=[]
+var app=angular.module("myApp", []);
+app.controller('myCtrl', function($scope) {
+	$scope.products = [];
+        $scope.addItem = function() {
+        	$scope.errortext = "";
+                if (!$scope.addMe) {
+                        return;
+                }
+                if ($scope.products.indexOf($scope.addMe) == -1) {
+                        $scope.products.push($scope.addMe);
+                } 
+		else {
+                	$scope.errortext = "The item is already in your shopping list.";
+                }
+        }
+        
+        $scope.removeItem = function(x) {
+        	$scope.errortext = "";
+                $scope.products.splice(x, 1);
+        }
+        prod = $scope.products
+        
+});
+
+function loadDoc() {
+	var name = document.getElementById("name").value;
+	var email = document.getElementById("email").value;
+	var mobile = document.getElementById("mobile").value;
+
+	var req = new XMLHttpRequest();
+	req.open("GET","datainsert.php?name="+name+"&email="+email+"&mobile="+mobile+"&products="+prod,true);
+	req.send();
+	req.onreadystatechange = function(){
+		if (this.readyState == 4 && this.status == 200){
+			document.write(open("final.html"));
+		}
+	}
+}
+</script>
+
+</body>
+</html>

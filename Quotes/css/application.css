@@ -1,0 +1,137 @@
+blockquote {
+  margin: 0;
+}
+
+body {
+  font-family: 'Vollkorn', serif;
+  font-size: 100%;
+  line-height: 1.3;
+  background: -webkit-linear-gradient(-135deg, #1e9437, #dab821);
+  background: -o-linear-gradient(-135deg, #1e9437, #dab821);
+  background: -moz-linear-gradient(-135deg, #1e9437, #dab821);
+  background: linear-gradient(-135deg, #1e9437, #dab821);
+  height: 100vh;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+a {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #2B8EA5;
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: inset 0 -2px 0 0 #2B8EA5;
+}
+
+.page-header {
+  background: #e420579f;
+  color: #000;
+  font-weight: bolder;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 50px;
+  text-align: center;
+  opacity: 90%;
+  border: 1px solid;
+  border-color: #4158d0;
+  border-radius: 20px;
+}
+
+.page-header h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 0;
+  opacity: 100%;
+  
+}
+
+.page-header p {
+  font-size: 1.5rem;
+}
+
+.page-header a {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #A3D9B9;
+  text-decoration: none;
+}
+
+.page-header a:hover {
+  box-shadow: inset 0 -2px 0 0 #A3D9B9;
+}
+
+.page-content {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 2rem 1rem;
+}
+
+.quote-content {
+  font-size: 1.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.quote-citation {
+  border-top: 1px solid #e8e8e8;
+  display: block;
+  font-size: 1.5rem;
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
+.quote-author {
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.quote-author:before {
+  content: "\2022";
+  margin-right: 10px;
+}
+
+.quote-actions {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.next {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #C0343D;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-color: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  border-radius: 20px;
+}
+
+.next:hover {
+  /*background: #94282f;*/
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.next:active {
+  /*background: #802329;*/
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.next:focus {
+  outline: 1px solid #0a4faa;
+}
+
+.page-footer {
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+  text-align: center;
+}

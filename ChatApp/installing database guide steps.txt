@@ -1,0 +1,5 @@
+Copy this folder and paste it inside htdocs folder of your XAMPP then start your apache and MySQL from the XAMMP control panel. 
+After completing these steps, go to your browser and open this URL localhost/phpmyadmin then create a new database name with chatapp. 
+After creating the database, there you can see an import option, just click on that and import the SQL file which is in the ChatApp folder. 
+Everything is done now, just open this URL localhost/chatapp that's it. 
+Your chat application is ready to chat.
