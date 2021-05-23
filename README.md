@@ -61,6 +61,7 @@ CraftyTech website is developed using the following technologies:
  
  ### Guess My Number Game Page ###
  To play the game user enters a number in the box provided and click on check if the number is below the correct number, then the user gets acknowledgement as too small and too large if the number entered is greater then the correct number. Once the number is guessed, correct number acknowledgement is given, and the Score is displayed.
+ 
  ![image](https://user-images.githubusercontent.com/81507533/119251290-8fc4fa80-bbc3-11eb-8409-85fecb882c26.png)
 
  
@@ -69,8 +70,8 @@ CraftyTech website is developed using the following technologies:
  - If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die to the next player.
  - Play passes from player to player until a winner is determined.
  - The first player to accumulate 100 or more points wins the game.
+ 
  ![image](https://user-images.githubusercontent.com/81507533/119251286-88055600-bbc3-11eb-80c6-d21210fa7240.png)
-
  
  ## Conclusion Of Project ##
  CraftyTech is a website that was successfully developed by our team as a project using different technologies, under the guidance of our course instructor, during the academic course of  Advanced Web Programming. By developing this project, we got hands on knowledge of the technologies that are we used which will be beneficial for us in the future.
