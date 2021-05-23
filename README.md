@@ -17,12 +17,18 @@ CraftyTech website is developed using the following technologies:
  ## Demonstration ##
  ### Login Page ###
  Login page is the first page of website, only registered user can login in CraftyTech. For new user there is an option for creating account at the bottom. Once the user has successfully registered, he/she may proceed further and enter his/her login credentials and click submit button if the details entered is registered, he/she will be acknowledged with a welcome message and then redirected to the  CraftyTech Home Page.
+
+![image](https://user-images.githubusercontent.com/81507533/119251394-f1856480-bbc3-11eb-949a-deaa4c0a1c9d.png)
  
  ### Sign Up Page ###
  When a new user wants to use our website, he/she needs to sign up with CraftyTech for this he/she need to fill the details shown in the picture and agree to terms and conditions and then click Register, once verified The user will get an acknowledgement for successful registration, Then the user may proceed to login into CraftyTech.
  
+ ![image](https://user-images.githubusercontent.com/81507533/119251386-ea5e5680-bbc3-11eb-9182-ba05d885de41.png)
+
  ### Home Page ###
  The page shown in the picture is the Home page of CraftyTech. The website provides various Features Such as Chat APP , online Food order services ,  Quotes and Games such as Guess the number , turtle quiz and Pig Game. At the bottom of Home Page, the user can find the contact details for any queries. At the Top right of the home page there is direct link to various features offered by CraftyTech
+
+![image](https://user-images.githubusercontent.com/81507533/119251380-e0d4ee80-bbc3-11eb-8d07-bd3ed845c6d6.png)
 
  ### Chat App ###
  - In this chat app, when you open it first on your browser, there is shown a signup form where you have to signup with your details like name, email, password, and image. 
@@ -35,21 +41,36 @@ CraftyTech website is developed using the following technologies:
  - On the message receiver chatbox, this user received the message with the sender image. Remember chatbox will be automatically scrolled to the bottom once the chatbox starts scrolling. 
  - You can logout from the chat application at any time and once you logout, immediately all other users will know that you've been log out or offline.
  
+ ![image](https://user-images.githubusercontent.com/81507533/119251376-d9ade080-bbc3-11eb-8caa-5f2f1149aef0.png)
+
+ ![image](https://user-images.githubusercontent.com/81507533/119251370-d3b7ff80-bbc3-11eb-9833-61e62a1a06f5.png)
+
+ ![image](https://user-images.githubusercontent.com/81507533/119251365-ce5ab500-bbc3-11eb-8d90-f64ba5ac4475.png)
+
+ 
  ### Order Online Page ###
  - One More Feature offered by CraftyTech is Food Order. The user can type required item name in the area provided below ‘Search Here’, After writing the item name the user simply must click add button to add the item to order. 
  - To place a successful order user must fill all the required details and click submit button , after click of submit button, an acknowledgement will be given informing about successful  Order placement.
+
+![image](https://user-images.githubusercontent.com/81507533/119251354-be42d580-bbc3-11eb-9b1c-0054974199d2.png)
  
  ### Games Section Page ###
  The page shown in the picture is the Game Section page offered by CraftyTech. To play any game user simply must click on the desired game and hence will be redirected to the game and hence, can enjoy the fun. The various games offered by CraftyTech is Pig Game , Guess My Number and Quiz on Turtles.
  
+ ![image](https://user-images.githubusercontent.com/81507533/119251298-994e6280-bbc3-11eb-956b-b8380bdb4f0a.png)
+ 
  ### Guess My Number Game Page ###
  To play the game user enters a number in the box provided and click on check if the number is below the correct number, then the user gets acknowledgement as too small and too large if the number entered is greater then the correct number. Once the number is guessed, correct number acknowledgement is given, and the Score is displayed.
+ ![image](https://user-images.githubusercontent.com/81507533/119251290-8fc4fa80-bbc3-11eb-8409-85fecb882c26.png)
+
  
  ### Pig Game Page ###
  - Choose a player to go first. That player throws a die and scores as many points as the total shown on the die providing the die doesn’t roll a 1. The player may continue rolling and accumulating points (but risk rolling a 1) or end his turn.
  - If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die to the next player.
  - Play passes from player to player until a winner is determined.
  - The first player to accumulate 100 or more points wins the game.
+ ![image](https://user-images.githubusercontent.com/81507533/119251286-88055600-bbc3-11eb-80c6-d21210fa7240.png)
+
  
  ## Conclusion Of Project ##
  CraftyTech is a website that was successfully developed by our team as a project using different technologies, under the guidance of our course instructor, during the academic course of  Advanced Web Programming. By developing this project, we got hands on knowledge of the technologies that are we used which will be beneficial for us in the future.
