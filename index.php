@@ -140,19 +140,17 @@
                     <div class="col-lg-4">
                         <br><br><br>
                         <p>
-                            <strong>SAGAR PATIL</strong>
+                            <strong>SHASHANK YERI</strong>
                             <br>&ensp;&ensp;<i class="fa fa-envelope" aria-hidden="true"></i>&ensp;&ensp;<a href="mailto:sagar.patil3@svkmmumbai.onmicrosoft.com">sagar.patil3@svkmmumbai.onmicrosoft.com</a>
-                            <br>&ensp;&ensp;<i class="fa fa-phone" aria-hidden="true"></i>&ensp;&ensp; +91-8698377673
-                            <br>&ensp;&ensp;<i class="fa fa-linkedin" aria-hidden="true"></i>&ensp;&ensp; <a href="">Sagar Patil</a><br>
+                            
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <br><br><br>
                         <p>
-                            <strong>MANISH CHOUDHARY</strong>
+                            <strong>JASHRAJ GANDHI</strong>
                             <br>&ensp;&ensp;<i class="fa fa-envelope" aria-hidden="true"></i>&ensp;&ensp;<a href="mailto:manish.choudhary@svkmmumbai.onmicrosoft.com">manish.choudhary@svkmmumbai.onmicrosoft.com</a>
-                            <br>&ensp;&ensp;<i class="fa fa-phone" aria-hidden="true"></i>&ensp;&ensp; +91-8849905788 
-                            <br>&ensp;&ensp;<i class="fa fa-linkedin" aria-hidden="true"></i>&ensp;&ensp; <a href="https://www.linkedin.com/in/manish-choudhary-18a8971b4">manish-Choudhary<br>
+                            
                         </p>
                     </div>
                     <!--col-lg-4-->
