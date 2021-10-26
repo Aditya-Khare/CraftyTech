@@ -141,7 +141,7 @@
                         <br><br><br>
                         <p>
                             <strong>SHASHANK YERI</strong>
-                            <br>&ensp;&ensp;<i class="fa fa-envelope" aria-hidden="true"></i>&ensp;&ensp;<a href="mailto:sagar.patil3@svkmmumbai.onmicrosoft.com">sagar.patil3@svkmmumbai.onmicrosoft.com</a>
+                            
                             
                         </p>
                     </div>
@@ -149,7 +149,7 @@
                         <br><br><br>
                         <p>
                             <strong>JASHRAJ GANDHI</strong>
-                            <br>&ensp;&ensp;<i class="fa fa-envelope" aria-hidden="true"></i>&ensp;&ensp;<a href="mailto:manish.choudhary@svkmmumbai.onmicrosoft.com">manish.choudhary@svkmmumbai.onmicrosoft.com</a>
+                            
                             
                         </p>
                     </div>
