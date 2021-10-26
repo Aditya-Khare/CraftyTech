@@ -48,9 +48,9 @@
                 <i class="fa fa-arrow-right menu-close"></i>
                 <a class="active" href="index.html">Home</a><br>
                 <!-- <a href="">Projects</a> -->
-                <a href="./ChatApp/login.php">Chat</a>
+<!--                 <a href="./ChatApp/login.php">Chat</a> -->
                 <a href="games.html">Games</a>
-                <a href="./orderonline/orderonline.html">Order Food</a>
+<!--                 <a href="./orderonline/orderonline.html">Order Food</a> -->
                 <a href="./Quotes/quotes.html">Quotes</a>                
             </div>
             <!-- Menu button -->
